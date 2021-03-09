@@ -1,6 +1,7 @@
 Body{
   font-family: sans-serif;
   margin:0px;
+  background-color:rgb(228, 252, 255);
 
 }
 .wrapper {
@@ -10,43 +11,59 @@ Body{
 
 nav {
   display:flex;
-  height:80px;
+
   background-color:rgb(154, 251, 252);
-  justify-content: space-between;
+  justify-content:space-between;
+
   margin:0px 0px 10px 0px;
 }
 
 .nav-item {
-  background-color: blanchedalmond;
-  Height:80px;
-  width:20%
+  display:flex;
+  /* background-color: blanchedalmond; */
+  Height:80px; */
+  width:20%;
+  align-items:center;
+  justify-content: center;
 }
 
-.fa-bars {
-  font-size:30px;
+.logo-container {
+  width:50%;
+  height:auto;
+
 }
 
+.fa-bars,
 .fa-search {
-font-size:25px;
-
+  font-size:30px;
+  margin:0px 15px 0px 15px;
 }
+
+
 
 .logo-area {
-  background-color:coral;
+  background-color:rgb(189, 252, 248);
   Width:100%;
-  Height:200px;
+  Height:300px;
   margin:auto;
 
 }
 
 .logo {
-  width: 100%;
+width:140px;
+
   position: relative;
-  left:-45px;
-  top:-55px;
+
+}
+
+h3 {
+  font-size:4vh;
+  margin-left:30px;
+
 }
 
 .feature-area {
+
   display:flex;
   padding-top:40px;
   justify-content: space-between;
@@ -57,11 +74,13 @@ font-size:25px;
 }
 
 .card {
-
+  display:flex;
   width:32%;
-  height:80px;
+  height:200px;
   background-color: bisque;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+
 
 
   }
