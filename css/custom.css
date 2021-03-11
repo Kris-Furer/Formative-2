@@ -1,102 +1,121 @@
-Body{
-  font-family: sans-serif;
-  margin:0px;
-  bod
+Body {
+font-family:sans-serif;  margin: 0px;
+font-family: 'poppins', sans-serif;
 
 }
+
 .wrapper {
   margin-left: 5%;
-  margin-right:5%;
+  margin-right: 5%;
 }
 
 nav {
-  display:flex;
+  display: flex;
   border-bottom: solid 0.2px rgb(129, 129, 129);
-  /* background-color:rgb(241, 241, 241); */
-  justify-content:space-between;
 
-  margin:0px 0px 10px 0px;
+  justify-content: space-between;
+  z-index: 99;
+  margin: 0px 0px 0px 0px;
   /* Shadow here-------------------------------------------------------- */
-	-webkit-box-shadow: 0 8px 4px -8px #7d7d7d;
-	   -moz-box-shadow: 0 8px 4px -8px #7d7d7d;
-	        box-shadow: 0 8px 4px -8px #7d7d7d;
-
+  -webkit-box-shadow: 0 8px 4px -8px #7d7d7d;
+  -moz-box-shadow: 0 8px 4px -8px #7d7d7d;
+  box-shadow: 0 8px 4px -8px #7d7d7d;
 }
 
 .nav-item {
-  display:flex;
+  display: flex;
   /* background-color: blanchedalmond; */
-  Height:80px; */
-  width:20%;
+  Height: 60px;
+  */ width: 20%;
   align-items:flex-start;
   justify-content: center;
-  margin-top: 15px;
+  margin: 15px 0px 15px 0px;
 }
 
 .logo-container {
-  width:0%;
-  height:auto;
-
+  width: 0%;
+  height: auto;
 }
 
 .fa-bars,
 .fa-search {
-  font-size:30px;
-  margin:0px 15px 0px 15px;
-  color:rgb(70, 70, 70);
+  font-size: 30px;
+  margin: 0px 15px 0px 15px;
+  color: rgb(70, 70, 70);
 }
 
+.hero-area {
+  display: flex;
 
-
-.logo-area {
-  background-color:rgb(189, 252, 248);
-  Width:100%;
-  Height:300px;
-  margin:auto;
-
-}
-
-.logo {
- width:140px;
-
+  background-color: rgb(189, 252, 248);
+  Width: 100%;
+  height: 100%;
+  margin: auto;
   position: relative;
-
-}
-
-h3 {
-  font-size:4vh;
-
-
-}
-
-.feature-area {
-
-  display:flex;
-  padding-top:40px;
-  justify-content: space-between;
-
-
-
-
-}
-
-.card {
-  display:flex;
-  width:32%;
-  height:200px;
-  background-color: bisque;
   justify-content: center;
   align-items: center;
 
+}
+
+.student-hero-pic {
+  width: 100%;
+  height:100%;
+  background-image: url("..img/student-hero.jpg");
+  filter: blur(3px);
+  filter: grayscale(1);
+  filter:brightness(65%);
+}
+
+.hero-area h1, h3 {
+ display: flex;
+  position: absolute;
+
+  /* right:0;
+  left:0; */
+
+  /* text-align: center; */
+  /* margin:10px; */
+  font-weight: 500;
+  color:white;
+}
+
+.hero-area h3 {
+top:4.5em;
+font-size: 1em;
+}
+
+.hero-area h1 {
+  top:1.5em;
+  font-size:3em;
+}
 
 
-  }
+.logo {
+  width: 140px;
+  position:relative;
+
+}
 
 
-  .button {
-    Padding:15px;
-    margin:5% 0% 5% 0%;
-    background-color:rgb(233, 225, 108);
-    text-align: center;
 
-  }
+.feature-area {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  width: 32%;
+  height: 200px;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  Padding: 15px;
+  margin: 5% 0% 5% 0%;
+  background-color: rgb(233, 225, 108);
+  text-align: center;
+}
